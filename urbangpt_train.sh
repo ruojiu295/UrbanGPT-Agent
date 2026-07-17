@@ -1,7 +1,7 @@
 # to fill in the following path to run our UrbanGPT!
 model_path=./checkpoints/vicuna-7b-v1.5-16k
-instruct_ds=./data/train_data/multi_NYC.json
-st_data_path=./data/train_data/multi_NYC_pkl.pkl
+instruct_ds=./ST_data_urbangpt/train_data/NYCmulti.json
+st_data_path=./ST_data_urbangpt/train_data/NYCmulti_pkl.pkl
 pretra_ste=ST_Encoder
 output_model=./checkpoints/UrbanGPT
 
@@ -37,4 +37,3 @@ python -m torch.distributed.run --nnodes=1 --nproc_per_node=8 --master_port=2000
     --gradient_checkpointing True \
     --lazy_preprocess True \
     --report_to wandb
-

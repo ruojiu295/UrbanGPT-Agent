@@ -1,7 +1,7 @@
 # to fill in the following path to evaluation!
-output_model=./tw2t_multi_reg-cla-gird
-datapath=./data/NYC_taxi/NYC_taxi.json
-st_data_path=./data/NYC_taxi/NYC_taxi_pkl.pkl
+output_model=./checkpoints/UrbanGPT_pretrained
+datapath=./ST_data_urbangpt/NYC_taxi_cross-region/NYCtaxi_zeroshot.json
+st_data_path=./ST_data_urbangpt/NYC_taxi_cross-region/NYCtaxi_zeroshot_pkl.pkl
 res_path=./result_test/cross-region/NYC_taxi
 start_id=0
 end_id=51920

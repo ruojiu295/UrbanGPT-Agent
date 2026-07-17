@@ -1,2 +1,50 @@
+# Model checkpoints and downloaded datasets
+checkpoints/
+ST_data_urbangpt/
+st_data/
 data/projects/UrbanGPT/
-data/projects/UrbanGPT/ST_data_urbangpt/
+
+# Hugging Face and training caches
+.cache/
+.huggingface/
+wandb/
+runs/
+logs/
+outputs/
+result_test/
+
+# Large model and dataset artifacts
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.npz
+*.npy
+
+# Local environments and Python caches
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local assistant metadata
+.agents/
+.codex/
+
+# Local reference material not needed by the code repository
+doc/*.docx
+doc/Guo*.pdf

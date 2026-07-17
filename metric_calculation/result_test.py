@@ -120,7 +120,7 @@ def test_classfication(y_true_in, y_pred_in, y_true_out, y_pred_out):
         print(f"f1 Score: {f1:.2f}")
 
 ################################ result path ################################
-folder_path = 'result_test_file/tw2t_multi_reg-cla_NYC_taxi_final'
+folder_path = 'result_test/cross-region/NYC_taxi'
 # folder_path = 'result_test_file/tw2t_multi_reg-cla_NYC_bike_final'
 
 # 'BURGLARY': 0, 'GRAND LARCENY': 1, 'ROBBERY': 2, 'FELONY ASSAULT': 3
